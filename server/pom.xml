@@ -10,7 +10,7 @@
 
 
     <modelVersion>4.0.0</modelVersion>
-    <artifactId>server</artifactId>
+    <artifactId>spring-cloud-config-example-server</artifactId>
 
     <dependencies>
         <dependency>
@@ -24,5 +24,15 @@
             <artifactId>spring-boot-starter-actuator</artifactId>
         </dependency>
     </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <!-- to build an 'uberjar' to use with "java -jar" -->
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
 
 </project>

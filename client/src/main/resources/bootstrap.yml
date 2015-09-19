@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: config-client-test
+  cloud:
+    config:
+      env: default # optional
+      label: master # optional
+      uri: http://localhost:8888 # optional

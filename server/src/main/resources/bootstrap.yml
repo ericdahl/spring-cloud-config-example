@@ -1,3 +1,8 @@
 spring:
   application:
     name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: file://${HOME}/config-repo
