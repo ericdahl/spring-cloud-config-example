@@ -1,0 +1,5 @@
+# Config data exposed by config server
+
+info:
+  foo: bar
+  someList: [2, 3, 7]
