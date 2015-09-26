@@ -19,13 +19,15 @@ $ mvn clean package
 $ java -jar server/target/*jar
 ```
 
-Load http://localhost:8888/master/development. This displays the config
-properties which are being retrieved from the git repo defined in bootstrap.yml
-which currently is the `config` directory in this repository.
+Load [http://localhost:8888/master/development](http://localhost:8888/master/development). 
+This displays the config properties which are being retrieved from the git repo defined 
+in bootstrap.yml. This currently is the [`config` directory in this repository](https://github.com/ericdahl/spring-cloud-config-example/tree/master/config).
 
 ### Start Client App
 ```bash
 java -jar client/target/*jar
 ```
 
-Load http://localhost:8080/env/info.foo
+Load [http://localhost:8080](http://localhost:8080) to see the property from the server. Alternatively, 
+you can inspect the properties and their sources from the spring-boot-actuator
+endpoint at [http://localhost:8080/env](http://localhost:8080/env)
