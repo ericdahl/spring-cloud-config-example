@@ -16,12 +16,12 @@ mvn clean package
 ### Start Config Server
 
 ```bash
-java -jar server/target/*jar
+java -jar server/target/spring-cloud-config-example-server-1.0-SNAPSHOT.jar
 ```
 
 Load [http://localhost:8888/master/development](http://localhost:8888/master/development). 
 This displays the config properties which are being retrieved from the git repo defined 
-in bootstrap.yml. This currently is the [`config` directory in this repository](https://github.com/ericdahl/spring-cloud-config-example/tree/master/config).
+in bootstrap.yml. This currently is the [`server-config` directory in this repository](https://github.com/ericdahl/spring-cloud-config-example/tree/master/server-config).
 
 ### Start Client App
 ```bash
