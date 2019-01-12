@@ -8,7 +8,7 @@ spring:
 #          uri: file://${HOME}/config-repo
           uri: https://github.com/ericdahl/spring-cloud-config-example
 
-          # Search in the 'config' directory of the repo. This generally wouldn't
+          # Search in the 'server-config' directory of the repo. This generally wouldn't
           # be used because the configs would be in the root directory, but because
           # this example repo is hosting both the code and the configs, we're
           # isolating the configuration files into their own directory.
