@@ -23,6 +23,8 @@ Load [http://localhost:8888/master/development](http://localhost:8888/master/dev
 This displays the config properties which are being retrieved from the git repo defined 
 in bootstrap.yml. This currently is the [`server-config` directory in this repository](https://github.com/ericdahl/spring-cloud-config-example/tree/master/server-config).
 
+Note: keep the server running in backround. The client app in the next step needs to connect to it.
+
 ### Start Client App
 ```bash
 java -jar client/target/*jar
