@@ -42,5 +42,5 @@ has this annotation, so it will display the new config value once the refresh
 endpoint is called.
 
 ```bash
-curl -X POST 'http://localhost:8080/refresh'
+curl -X POST 'http://localhost:8080/actuator/refresh'
 ```
